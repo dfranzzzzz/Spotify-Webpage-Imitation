@@ -1,0 +1,265 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #c9c9c9;
+  line-height: 1.6;
+  background: #141414;
+}
+
+a {
+  color: #c9c9c9;
+  text-decoration: none;
+  font-size: medium;
+}
+
+li {
+  list-style: none;
+  font-size: small;
+  padding: 0.5rem 0;
+}
+
+i {
+  padding-right: 1rem;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Margin */
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 1.5rem 0;
+}
+
+.my-3 {
+  margin: 2rem 0;
+}
+
+.my-4 {
+  margin: 3rem 0;
+}
+
+.my-5 {
+  margin: 4rem 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 1.5rem;
+}
+
+.m-3 {
+  margin: 2rem;
+}
+
+.m-4 {
+  margin: 3rem;
+}
+
+.m-5 {
+  margin: 4rem;
+}
+
+/* Padding */
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.py-4 {
+  padding: 3rem 0;
+}
+
+.py-5 {
+  padding: 4rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 3rem;
+}
+
+.p-5 {
+  padding: 4rem;
+}
+
+.p-div {
+  padding: 1rem 1.25rem 0.25rem;
+}
+
+.sideNav {
+  height: 86%;
+  width: 220px;
+  position: fixed;
+  background: black;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.sideNav__logo span {
+  font-size: x-large;
+  font-weight: bold;
+  color: #fff;
+}
+
+.sideNav__logo i {
+  color: #fff;
+}
+
+.sideNav__nav a,
+.sideNav__nav li,
+.sideNav__playlists a,
+.sideNav__playlists li {
+  color: #c9c9c9;
+  font-weight: bold;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.sideNav__nav a:hover,
+.sideNav__nav li:hover,
+.sideNav__playlists a:hover,
+.sideNav__playlists li:hover {
+  color: #fff;
+}
+
+.sideNav h5 {
+  color: #c9c9c9;
+}
+
+.sideNav__playlists {
+  border-bottom: 0.05em solid #35424a;
+}
+
+.sideNav .myPlaylist li,
+.sideNav__install a {
+  color: #c9c9c9;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.sideNav .myPlaylist li:hover,
+.sideNav__install a:hover {
+  color: #fff;
+}
+
+.sideNav .myPlaylist li {
+  padding: .3rem;
+}
+
+.sideNav__install {
+  padding: 0.25rem 1.25rem;
+}
+
+.sideNav .active {
+  background-color: #35424a;
+  border-radius: 5px;
+  margin: 0 -0.75rem;
+  padding: .5rem 0.75rem;
+}
+
+.sideNav .active a, .sideNav .active i {
+  color: #fff;
+}
+
+.footer {
+  height: 14%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  background: #35424a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__currentSong > div {
+  padding: 0 1rem;
+}
+
+.footer__currentSong .songPic {
+  height: 50px;
+  width: 50px;
+  background: turquoise;
+}
+
+.footer__musicNav {
+  height: 90px;
+}
+
+.footer__musicNav .btn, .footer__musicNav .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 10px;
+}
+
+.footer__musicNav .time span {
+  font-weight: 900;
+}
+
+.footer__musicNav i {
+  padding: 1rem;
+}

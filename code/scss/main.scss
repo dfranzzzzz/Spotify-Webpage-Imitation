@@ -1,0 +1,126 @@
+@import 'config';
+
+// Sidenav
+
+.sideNav {
+  height: 86%;
+  width: 220px;
+  position: fixed;
+  background: black;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  &__logo {
+
+    & span {
+      font-size: x-large;
+      font-weight: bold;
+      color: $primary-color;
+    }
+
+    & i {
+      color: $primary-color;
+    }
+  }
+
+  &__nav a, 
+  &__nav li,
+  &__playlists a,
+  &__playlists li {
+    color: $secondary-color;
+    font-weight: bold;
+    @include transition-ease;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  h5 {
+    color: $secondary-color;
+  }
+
+  &__playlists {
+    border-bottom: 0.05em solid $third-color;
+  }
+
+  .myPlaylist li,
+  &__install a {
+    color: $secondary-color;
+    @include transition-ease;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  .myPlaylist li {
+    padding: .3rem;
+  }
+
+  &__install {
+    padding: 0.25rem 1.25rem;
+  }
+
+  .active {
+    background-color: $third-color;
+    border-radius: 5px;
+    margin: 0 -0.75rem;
+    padding: .5rem 0.75rem;
+
+    a, i {
+      color: $primary-color;
+    }
+  }
+}
+
+// Footer
+
+.footer {
+  height: 14%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  background: $third-color;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  &__currentSong {
+
+    & > div {
+      padding: 0 1rem;
+    }
+
+    .songPic {
+      height: 50px;
+      width: 50px;
+      background: turquoise;
+    }
+  }
+
+  
+
+  &__musicNav {
+    height: 90px;
+    .btn, .time {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      line-height: 10px;
+    }
+
+    .time span {
+      font-weight: 900;
+    }
+
+    i {
+      padding: 1rem;
+    }
+
+  }
+}
