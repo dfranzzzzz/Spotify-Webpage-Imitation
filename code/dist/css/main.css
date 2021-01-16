@@ -9,7 +9,6 @@ body {
   font-family: 'Lato', sans-serif;
   color: #c9c9c9;
   line-height: 1.6;
-  background: #141414;
 }
 
 a {
@@ -201,6 +200,35 @@ i {
 
 .sideNav .active a, .sideNav .active i {
   color: #fff;
+}
+
+.main {
+  height: auto;
+  background: #141414;
+  margin-left: 220px;
+}
+
+.main__topBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 84%;
+  top: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #141414;
+  padding: 1rem 2rem;
+  position: fixed;
+  overflow: hidden;
+}
+
+.main__albumCards {
+  padding-top: 60px;
+}
+
+.main__albumCards > div {
+  padding: 2rem 2rem .5rem;
 }
 
 .footer {
