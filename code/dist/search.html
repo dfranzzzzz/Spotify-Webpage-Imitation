@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.css">
   <link rel="stylesheet" href="css/main.css">
-  <title>Document</title>
+  <title>Spotify - Search</title>
 </head>
 <body>
   <!-- SideNav -->
@@ -47,9 +47,16 @@
 
   <section class="main">
     <div class="main__topBar">
-      <div class="main__topBar-arrows">
-        <i class="fas fa-chevron-circle-left fa-2x"></i>
-        <i class="fas fa-chevron-circle-right fa-2x"></i>
+      <div class="main__topBar-left">
+        <div class="main__topBar-arrows">
+          <i class="fas fa-chevron-circle-left fa-2x"></i>
+          <i class="fas fa-chevron-circle-right fa-2x"></i>
+        </div>
+        <div class="main__topBar-search">
+          <form>
+            <input type="text" name="search" placeholder="Search for Artists, Songs, or Podcasts">
+          </form>
+        </div>
       </div>
 
       <div class="main__topBar-profile">
@@ -58,173 +65,68 @@
     </div>
 
     <div class="main__albumCards">
-      <h1>Shortcuts</h1>
-      <div class="main__albumCards-shortcuts">
-        <div class="cards-shortcuts">
-          <div class="cards-shortcuts-image"></div>
-          <div class="cards-shortcuts-title">Chill Hits</div>
+      <h1>Your top genres</h1>
+      <div class="main__albumCards-playlists">
+        <div class="topGenres" style="background: linear-gradient(135deg, cornflowerblue, plum);">
+          <h2>Pop</h2>
         </div>
-        <div class="cards-shortcuts">
-          <div class="cards-shortcuts-image"></div>
-          <div class="cards-shortcuts-title">Lo-fi Chill Beats</div>
-        </div>
-        <div class="cards-shortcuts">
-          <div class="cards-shortcuts-image"></div>
-          <div class="cards-shortcuts-title">boosterz</div>
-        </div>
-        <div class="cards-shortcuts">
-          <div class="cards-shortcuts-image"></div>
-          <div class="cards-shortcuts-title">Accoustic Favorites</div>
-        </div>
-        <div class="cards-shortcuts">
-          <div class="cards-shortcuts-image"></div>
-          <div class="cards-shortcuts-title">OPM</div>
+        <div class="topGenres" style="background: linear-gradient(135deg, blue, cornflowerblue);">
+          <h2>Indie</h2>
         </div>
       </div>
 
-      <h1>Recently played</h1>
+      <h1>Browse all</h1>
       <div class="main__albumCards-playlists">
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>boosterz</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
+        <div class="genres" style="background: linear-gradient(135deg,rgb(232, 30, 30),rgba(255, 255, 255, .8));">
+          <h2>Podcasts</h2>
         </div>
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>Chill Hits</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
+        <div class="genres" style="background: linear-gradient(135deg, rgb(235, 173, 135),rgba(255, 255, 255, .8));">
+          <h2>Made For You</h2>
         </div>
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>Accoustic Favorites</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
+        <div class="genres" style="background: linear-gradient(135deg,rgb(173, 141, 200),rgba(255, 255, 255, .7));">
+          <h2>Charts</h2>
         </div>
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>Lo-fi Chill Beats</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
+        <div class="genres" style="background: linear-gradient(135deg, rgb(43, 3, 107),rgba(255, 255, 255, .7));">
+          <h2>New Releases</h2>
+        </div>
+        <div class="genres" style="background: linear-gradient(135deg,rgb(46, 144, 8),rgba(255, 255, 255, .7));">
+          <h2>Discover</h2>
+        </div>
+        <div class="genres" style="background: linear-gradient(135deg,rgb(87, 153, 164),rgba(255, 255, 255, .7));">
+          <h2>Concerts</h2>
+        </div>
+        <div class="genres" style="background: linear-gradient(135deg,rgb(186, 84, 44),rgba(255, 255, 255, .7));">
+          <h2>At Home</h2>
+        </div>
+        <div class="genres" style="background: linear-gradient(135deg,rgb(223, 83, 105),rgba(255, 255, 255, .7));">
+          <h2>Wellness</h2>
+        </div>
+        <div class="genres" style="background: linear-gradient(135deg,rgb(124, 21, 176),rgba(255, 255, 255, .7));">
+          <h2>Rock</h2>
+        </div>
+        <div class="genres" style="background: linear-gradient(135deg,rgb(253, 160, 233),rgba(255, 255, 255, .7));">
+          <h2>R&B</h2>
+        </div>
+        <div class="genres" style="background: linear-gradient(135deg,rgb(29, 48, 228),rgba(255, 255, 255, .7));">
+          <h2>Romance</h2>
+        </div>
+        <div class="genres" style="background: linear-gradient(135deg,rgb(61, 91, 23),rgba(255, 255, 255, .7));">
+          <h2>OPM</h2>
+        </div>
+        <div class="genres" style="background: linear-gradient(135deg,rgb(61, 2, 63),rgba(255, 255, 255, .7));">
+          <h2>Discover</h2>
+        </div>
+        <div class="genres" style="background: linear-gradient(135deg,rgb(131, 104, 152),rgba(255, 255, 255, .7));">
+          <h2>Accoustic</h2>
+        </div>
+        <div class="genres" style="background: linear-gradient(135deg,rgb(219, 201, 255),rgba(255, 255, 255, .7));">
+          <h2>Hiphop</h2>
+        </div>
+        <div class="genres" style="background: linear-gradient(135deg,rgb(250, 13, 1),rgba(255, 255, 255, .7));">
+          <h2>Jazz</h2>
         </div>
       </div>
 
-      <h1>Popular playlists</h1>
-      <div class="main__albumCards-playlists">
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>Playlist # 1</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>Playlist # 2</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>Playlist # 3</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>Playlist # 4</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <h1>Mood</h1>
-      <div class="main__albumCards-playlists">
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>Playlist # 1</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>Playlist # 2</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>Playlist # 3</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>Playlist # 4</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
-      </div>
-      
-      <h1>Close your eyes...</h1>
-      <div class="main__albumCards-playlists">
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>Playlist # 1</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>Playlist # 2</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>Playlist # 3</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
-        <div class="cards">
-          <div class="cards-image"></div>
-          <div class="cards-des">
-            <h3>Playlist # 4</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 

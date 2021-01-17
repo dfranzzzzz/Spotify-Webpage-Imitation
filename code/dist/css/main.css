@@ -154,7 +154,7 @@ i {
 }
 
 .main__topBar-left li {
-  padding: .5rem 1rem;
+  padding: .3rem 1rem;
   font-weight: bold;
 }
 
@@ -167,7 +167,7 @@ i {
   background: linear-gradient(135deg, blue, plum);
   height: 300px;
   width: 465px;
-  margin: .5rem 1.5rem .5rem 0;
+  margin: .5rem 1.5rem 1rem 0;
   border-radius: 3px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -190,6 +190,52 @@ i {
 .likedSongs h2, .likedSongs p {
   padding-left: 1rem;
   color: #fff;
+}
+
+.topGenres {
+  background: linear-gradient(135deg, blue, plum);
+  height: 220px;
+  width: 465px;
+  margin: .5rem 1.5rem .5rem 0;
+  border-radius: 10px;
+}
+
+.topGenres h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  padding: 1.5rem 0 0 1rem;
+}
+
+.genres {
+  height: 220px;
+  width: 220px;
+  background: mediumseagreen;
+  margin: .5rem 1.5rem 1rem 0;
+  border-radius: 10px;
+  padding: 1rem;
+  color: #fff;
+}
+
+input[type=text] {
+  width: 350px;
+  border-radius: 30px;
+  border-style: none;
+  font-size: 15px;
+  background-color: white;
+  background-image: url("/image/searchicon.png");
+  background-size: 20px 20px;
+  background-position: 12px 9px;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.main__topBar-search {
+  margin: -5px 0;
 }
 
 .sideNav {
@@ -327,7 +373,7 @@ i {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 3px;
-  margin: .5rem 1.5rem .5rem 0;
+  margin: .5rem 1.5rem 1rem 0;
 }
 
 .main__albumCards-shortcuts .cards-shortcuts-image {
@@ -346,6 +392,10 @@ i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
