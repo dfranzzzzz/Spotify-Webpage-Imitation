@@ -1,4 +1,5 @@
 @import 'config';
+@import 'library';
 
 // Sidenav
 
@@ -81,6 +82,8 @@
   height: 100%;
   background: rgb(20, 20, 20);
   margin-left: 220px;
+  margin-bottom: -71px;
+  padding-bottom: 1.5rem;
   
   h1 {
     padding: 2rem 2rem 0;
@@ -156,7 +159,7 @@
           height: 220px;
           width: 196px;
           margin-top: 1rem;
-          background: rgb(43, 153, 142);
+          background: linear-gradient(135deg, rgb(51, 175, 163), plum);
           border-radius: 3px;
         }
         &-des {
@@ -173,10 +176,7 @@
         }
       }
     }
-
-
   }
-
 }
 
 // Footer

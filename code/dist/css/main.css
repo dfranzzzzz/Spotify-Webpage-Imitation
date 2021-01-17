@@ -126,6 +126,72 @@ i {
   padding: 1rem 1.25rem 0.25rem;
 }
 
+.main__topBar-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__topBar-left div {
+  padding-right: 2rem;
+}
+
+.main__topBar-left ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main__topBar-left li {
+  padding: .5rem 1rem;
+  font-weight: bold;
+}
+
+.main__topBar-left .active {
+  background-color: #35424a;
+  border-radius: 5px;
+}
+
+.likedSongs {
+  background: linear-gradient(135deg, blue, plum);
+  height: 300px;
+  width: 465px;
+  margin: .5rem 1.5rem .5rem 0;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-bottom: 1rem;
+}
+
+.likedSongs h2 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.likedSongs h2, .likedSongs p {
+  padding-left: 1rem;
+  color: #fff;
+}
+
 .sideNav {
   height: 86%;
   width: 220px;
@@ -206,6 +272,8 @@ i {
   height: 100%;
   background: #141414;
   margin-left: 220px;
+  margin-bottom: -71px;
+  padding-bottom: 1.5rem;
 }
 
 .main h1 {
@@ -304,7 +372,7 @@ i {
   height: 220px;
   width: 196px;
   margin-top: 1rem;
-  background: #2b998e;
+  background: linear-gradient(135deg, #33afa3, plum);
   border-radius: 3px;
 }
 

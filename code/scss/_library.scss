@@ -1,0 +1,48 @@
+.main__topBar {
+  &-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    div {
+      padding-right: 2rem;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+      }
+
+    li {
+      padding: .5rem 1rem;
+      font-weight: bold;
+    }
+    
+    .active {
+      background-color: $third-color;
+      border-radius: 5px;
+    }
+  }
+}
+
+.likedSongs {
+  background: linear-gradient(135deg, blue, plum);
+  height: 300px;
+  width: 465px;
+  margin: .5rem 1.5rem .5rem 0;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+
+  h2 {
+    font-size: x-large;
+    font-weight: bold;
+  }
+
+  h2, p {
+    padding-left: 1rem;
+    color: $primary-color;
+  }
+}
