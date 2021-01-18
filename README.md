@@ -1,5 +1,5 @@
 # Spotify-Webpage-Imitation
-Imitation of Spotify webpage layout using HTML, CSS, Sass. Used flex properties on most and also icons are just from FontAwesome. 
+Imitation of Spotify webpage layout using HTML, CSS, and Sass where I used Flex property on most cases and included a self-made kind of framework for margins and paddings. Also includes implementation of “cards” for song or playlist displays.
 
 #### First personal project ever out of tutorial hell and decided to learn the basics of Git and Github.
 Issues:
